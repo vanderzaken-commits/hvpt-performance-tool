@@ -1,5 +1,29 @@
 # Rollenverdeling Agents — HVPT Performance Tool
 
+> **Let op — leidend document is gewijzigd.** Deze rolverdeling beschrijft de
+> vroege bouwstraat-rollen. Voor multi-agent bouwopdrachten geldt sindsdien
+> `docs/HVPT_DEVELOPMENT_AGENT_PROTOCOL.md` in de `hvpt-performance-tool-v2`-
+> repository (HVPT Multi-Agent Development Protocol v1.0 — ACTIVE) als
+> leidend document. Bij afwijking tussen dit document en dat protocol geldt
+> het protocol.
+>
+> Rolwijzigingen ten opzichte van dit document:
+> - **Nina** (hier: UI/UX-agent) is daar gesplitst in **Sophie** (UX/UI-review
+>   — begrijpelijkheid, bruikbaarheid, toegankelijkheid, mobiele flow) en
+>   **Nina/Nana** (documentatie en buildstatus — CHANGELOG,
+>   CURRENT_BUILD_STATUS, overdracht, acceptatiesamenvatting).
+> - Nieuw in het actuele protocol, niet in dit document: **Codex** (primaire
+>   implementatie-agent, met specialistprofielen UI/Backend/Data/Test/
+>   Documentation), **Wessel** als senior developer/integrator (architectuur,
+>   database, security, auth, guards, company_id, finale technische
+>   controle — een uitbreiding op de developer-rol hieronder), **Claude Code**
+>   (onafhankelijke specialist/reviewer, standaard READ ONLY) en **Quinn**
+>   (onafhankelijke QA).
+> - "Dr. Janssen" hieronder is dezelfde rol als "Dr. Jansen" in het actuele
+>   protocol; gebruik voortaan "Dr. Jansen" voor consistentie.
+>
+> Harry, Sander en Mark blijven inhoudelijk ongewijzigd.
+
 ## Harry
 
 Harry is eigenaar, product owner en eindbeslisser.
